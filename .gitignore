@@ -1,0 +1,18 @@
+# 编译产物
+bin/
+*.o
+*.out
+*.a
+
+# 运行时日志
+*.log
+
+# 服务端接收的文件（保留目录占位，不提交内容）
+files/*
+!files/.gitkeep
+
+# 编辑器/系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
